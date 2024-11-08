@@ -1,6 +1,6 @@
 import os, math, logging, datetime, pytz, logging.config
 
-from aiohttp import 
+from aiohttp import web
 from pyrogram import Client, types
 from database.users_chats_db import db
 from database.ia_filterdb import  Media
@@ -17,7 +17,7 @@ logging.getLogger("cinemagoer").setLevel(logging.ERROR)
 class Bot(Client):
     def __init__(self):
         super().__init__(
-            name="Professor-Bot",
+            name="Md-Files-",
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
