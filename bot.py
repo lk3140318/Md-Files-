@@ -1,1 +1,1 @@
-pip install pylint
+python3 bot.py
